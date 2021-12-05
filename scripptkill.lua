@@ -1,11 +1,14 @@
- if player.UserId == 2213409568 or player.UserId == 15427717 or player.UserId == 8195210 or player.UserId == 28357488 or player.UserId == 17260230 or player.UserId == 201454243 or player.UserId == 179520654 then  
+ local Players = game:GetService("Players") -- you should use GetService over game.Players!
+        for _, player in pairs(Players:GetPlayers()) do
+        -- this code will run for all players
+            if player.UserId == 2213409568 or player.UserId == 15427717 or player.UserId == 8195210 or player.UserId == 28357488 or player.UserId == 17260230 or player.UserId == 201454243 or player.UserId == 179520654 then  
                 wait(1)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/q2eq3q3fw/killscript.lua/main/killscript.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/q2eq3q3fw/killscript.lua/main/killscript.lua'))()
             else
-               local kickhandler = game.Players.LocalPlayer
-		kickhandler:kick('not whitelisted don't try !')
-		warn("you are not whitelisted  !")	end
-        end
+local kickhandler = game.Players.LocalPlayer
+		kickhandler:kick('not whitelisted')
+		warn("not whitelisted !")	        end
+    end
         
         
         local AdminList = {
@@ -29,9 +32,9 @@
                      Duration = 20;
                      })
                  wait(2)
-                local plr = game:GetService('Players').LocalPlayer
-                plr:Kick('KICKED TO AVOID ADMIN-BAN (Admin joined) =)')
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/q2eq3q3fw/killscript.lua/main/killscript.lua'))()
     
             end
         end
     end)
+ 
