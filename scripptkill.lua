@@ -5,15 +5,13 @@ local Players = game:GetService("Players") -- you should use GetService over gam
                 wait(1)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/q2eq3q3fw/killscript.lua/main/killscript.lua"))()
             else
-                local kickhandler = game.Players.LocalPlayer
-		kickhandler:kick('Not Whitelisted ! dont try dm dot#1020 to whitelist')
-		warn("not whitelisted!")
+                game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("u r not whitelisted")
         end
     end
         
         
         local AdminList = {
-        2213409568, -- rayan  
+        2213409568, -- rayan77x_1  
         1570719229,  -- wtrook      
         8195210,   -- Benoxa
         822999,    -- AStrongMuscle  
